@@ -1,166 +1,152 @@
-:root {
+ :root {
   --primary-sunglow: #ffd034;
   --secondary-white: #ffff;
   --secondary-light-blue: #cadbf8;
-  --secondary-catalina:#06327d;
+  --secondary-catalina: #06327d;
   --secondary-bluetiful: #2b70e4;
   --secondary-black: #000000;
-}
+  --secondary-vegan: #209d5c;
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
-/* BASIC FORMATTING */
-/*html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-img {
-  max-width: 100%;
-  margin: 3rem;
-  padding: auto;
-}
-
-body {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.125rem;
-  background-color: var(--secondary-catalina);
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  }
-
-header {
- display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
-
-}
-
-
- nav {
-  
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  list-style: none;
-  margin: 1rem;
-  padding: 3px;
-  flex-flow: row-wrap;
-  gap: 1rem;
-  padding-left: 1rem;
-  background-color: var(--secondary-catalina);
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 1rem;
-  margin: 0;
-  display: flex; 
-  flex-flow: row wrap;
-  gap: 2rem;
-  justify-content: center;
-  /*flex layout for navbar*/
-  
-/* nav a {
-  color: var(--secondary-white);
-  list-style-type: none;
-  text-decoration: none;
-  gap: 1rem;
-  padding: 0;
- 
-}
-
-
- a:hover {
-  color: var(--primary-sunglow);
-}
-
-
-
-/*this is for the hero section
-h1 {
-  font-size: 3rem;
-  line-height: 1.1667;
-  margin: 2rem;
-  padding: 3rem;
-  text-transform: upppercase;
-  font-weight: 300;
-  color: var(--secondary-white);
-}
-
-
-
-
-
-
-
-
-
-.hero {
   display: flex;
-  justify-content: canter;
-  border-bottom: 15px solid var(--primary-sunglow);
-  border-top: 15px solid var(--primary-sunglow);
-  background-color: var(--secondary-white);
-
-  margin: 5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   justify-content: center;
+  text-decoration: none;
+}
+
+a:hover {
+  display: block;
+  text-decoration: none;
+}
+
+a:visited {
+    background-color: var(--secondary-vegan);
+    color: var(--primary-sunglow);
+}
+
+
+
+
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 2rem;
+
+}
+nav {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 2rem;
+  border-bottom: 20px solid var(--primary-sunglow);
+  padding: 1rem;
+  justify-content: space-between;
   
 }
 
-.button {
-  background-color: #209d5c;
+.hero { 
+  background-color: var(--secondary-white);
+  margin-bottom: 1rem;
+  color: var(--secondary-black);
+  display: flex;
+  align-items: flex-start;
+  }
+
+
+ .hero-img {
+  display: block;
+  padding-left: 4rem;
+  max-height: 400%;
+  margin-bottom: 3rem;
+ }
+ 
+ 
+
+
+ .button {
+  background-color: var(--secondary-vegan);
   border: 2px solid var(--secondary-black)black;
   padding: .5rem;
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--secondary-white);
   border-radius: 10px;
-  margin-top: 2rem;
-  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
   margin-bottom: 3rem;
   display: inline-block;
+  width: max-content;
+ }
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--secondary-catalina)
+    color: var(--secondary-white);
+}
+
+header {
+    background-color: var(--secondary-catalina);
+    padding: 15px;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo img {
+    width: 110px;
+    height: auto;
+    display: block;
 }
 
 
-/*this is for the footer*/
 
-/*footer {
+nav li {
+    text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.card-container {
+    max-width: 90%;
+    max-width: 900px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+
+
+footer {
   color: var(--secondary-white);
+  background-color: var(--secondary-catalina);
+  border-top: 40px solid var(--primary-sunglow);
   align-items: center;
   text-align: center;
-  padding-bottom: 2rem;
-  margin-top: 2rem;
+  padding-bottom: 4rem;
+  
 } 
-
-@media (min-width:1000%) { 
-hero {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.125rem;
-  background-color: var(--secondary-white);
-  margin: 7rem;
-  padding: 3rem;
-  line-height: 1.5;
-  }
-/* }  */
-
-
-*
-
-
-
-/
-
-
-
- 

@@ -11,10 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-.logo {
-padding-right: 67%;
 
-}
 
  nav .logo {
   max-width: 100%;
@@ -47,7 +44,7 @@ nav a {
 nav li {
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: 5%;
+  margin-bottom: 3rem;
 
 }
 nav {
@@ -58,8 +55,10 @@ nav {
   justify-items:center;
   margin-bottom: 3rem;
   flex-wrap: wrap;
+  display: flex;
 
 }
+
  
 
 a:hover {
@@ -204,6 +203,17 @@ footer {
 } 
 
 
+/* @media (max-width: 650px) */
+/* { */
+  /* .card-grid { */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1/2 2/3 3/4 4/5;
+    gap: 2rem;
+
+
+  } */
+/* } */
 
   
 
