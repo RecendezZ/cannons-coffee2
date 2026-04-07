@@ -31,7 +31,16 @@ a:visited {
 }
 
 
-
+h1 {
+  line-height: 1.1667;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+  text-transform: upppercase;
+  margin: auto;
+  padding-left: 3rem;
+  
+ }
 
 nav li {
   text-decoration: none;
@@ -50,7 +59,7 @@ nav {
 }
 
 .hero { 
-  background-color: var(--secondary-white);
+  background-color: var(--secondary-white);          
   margin-bottom: 1rem;
   color: var(--secondary-black);
   display: flex;
@@ -84,7 +93,9 @@ nav {
  }
 
 
-
+a {
+  text-decoration: none;
+}
 
 
 body {
