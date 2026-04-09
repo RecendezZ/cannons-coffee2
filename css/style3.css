@@ -9,17 +9,56 @@
 
 }
 
+img 
+  {
+  max-width: 40%;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+header {
+    
+    padding: 15px;
+    background-color: var(--secondary-catalina);
+}
+
+nav {
+  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+    color: var(--secondary-white);
+    border-bottom: 20px solid var(--primary-sunglow);
+}
+
+
+
+
+
+nav li {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: .5rem;
   justify-content: center;
   text-decoration: none;
+  
 }
 
+body {
+  background-color: var(--secondary-catalina);
+}
 a:hover {
   display: block;
   text-decoration: none;
@@ -27,54 +66,15 @@ a:hover {
 
 a:visited {
     background-color: var(--secondary-vegan);
-    color: var(--primary-sunglow);
+    color: var(--primary-white);
 }
 
-
-h1 {
-  line-height: 1.1667;
-  font-size: 3rem;
-  font-weight: 300;
-  margin: 0;
-  text-transform: upppercase;
-  margin: auto;
-  padding-left: 3rem;
-  
- }
-
-nav li {
-  text-decoration: none;
-  list-style-type: none;
-  margin-bottom: 2rem;
-
-}
-nav {
-  display: flex;
-  flex-wrap:wrap;
-  gap: 2rem;
-  border-bottom: 20px solid var(--primary-sunglow);
-  padding: 1rem;
-  justify-content: space-between;
-  
+.logo img {
+    width: 110px;
+    height: auto;
+    display: block;
 }
 
-.hero { 
-  background-color: var(--secondary-white);          
-  margin-bottom: 1rem;
-  color: var(--secondary-black);
-  display: flex;
-  align-items: flex-start;
-  }
-
-
- .hero-img {
-  display: block;
-  padding-left: 4rem;
-  max-height: 400%;
-  margin-bottom: 3rem;
- }
- 
- 
 
 
  .button {
@@ -86,7 +86,7 @@ nav {
   color: var(--secondary-white);
   border-radius: 10px;
   margin-top: 4rem;
-  margin-left: 4rem;
+  margin-left: 40rem;
   margin-bottom: 3rem;
   display: inline-block;
   width: max-content;
@@ -98,60 +98,23 @@ a {
 }
 
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--secondary-catalina);
-    color: var(--secondary-white);
+
+.latte {
+background-color: var(--secondary-white);
+display: flex;
+flex-wrap: wrap;
 }
 
-header {
-    background-color: var(--secondary-catalina);
-    padding: 15px;
-}
-
-nav {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.logo img {
-    width: 110px;
-    height: auto;
-    display: block;
-}
-
-
-
-nav li {
-    text-decoration: none;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-
-
-
-.card-container {
-    max-width: 90%;
-    max-width: 900px;
-    margin: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+p {
+  padding-left: 30rem;
 
 }
 
 
+h1 {
 
-
-
+  padding-left: 13rem;
+}
 footer {
   color: var(--secondary-white);
   background-color: var(--secondary-catalina);
