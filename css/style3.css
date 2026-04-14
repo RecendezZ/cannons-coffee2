@@ -8,7 +8,9 @@
   --secondary-vegan: #209d5c;
 
 }
-
+body {
+  background-color: var(--secondary-catalina);
+}
 img 
   {
   max-width: 40%;
@@ -56,9 +58,7 @@ nav ul {
   
 }
 
-body {
-  background-color: var(--secondary-catalina);
-}
+
 a:hover {
   display: block;
   text-decoration: none;

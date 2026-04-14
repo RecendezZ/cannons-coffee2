@@ -9,11 +9,18 @@
 
 }
 
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+  
+  line-height: 1.5;
+  background-color: var(--secondary-catalina);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-.whole-conainer {
-  max-width: 1200px;
-}
+
 
 
  nav .logo {
@@ -72,16 +79,6 @@ a:hover {
 a:visited {
  color: var(--secondary-white);
  }
-
-body {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.125rem;
-  margin: 0;
-  padding: auto;
-  line-height: 1.5;
-  
-
-}
 
 
 .whole-container{
@@ -208,15 +205,16 @@ img {
 }
 .card {
   background-color: var(--secondary-light-blue);
+   
 }
 footer {
   
   color: var(--secondary-white);
   background-color: var(--secondary-catalina);
-  border-top: 40px solid var(--primary-sunglow);
   align-items: center;
   text-align: center;
   padding-bottom: 8em;
+  border-top: 40px solid var(--primary-sunglow);
 }
 @media (min-width: 650px) {
   .hero {
