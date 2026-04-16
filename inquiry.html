@@ -14,55 +14,64 @@
 </head>
 
 <body>
-    <nav>
-
-        <div class="logo"><img src="images/logo-nav.png" alt="Cannons Coffee Logo, Beans of Joy" /></div>
-
-        <h1>CANNON'S COFFEE</h1>
-
-        <ul>
-            <li><a href="https://recendezz.github.io/cannons-coffee/" target="_blank">HOME</a></li>
-            <li><a href="latte.html" target="_blank">COFFEE</a></li>
-            <li><a href="https://locations.noahs.com/us/ca/oakland/5095-telegraph-ave" target="_blank">ABOUT</a>
-            </li>
-            <li><a href="login.html" target="_blank">LOGIN</a></li>
-            <li><a href="inquiry.html" target="_blank">INQUIRY</a></li>
-            <li><a href="mailto:RecendezZanetta@Gmail.Com" target="_blank">CONTACT</a></li>
-        </ul>
+    <header>
 
 
-    </nav>
 
-    <form id="cannonsCoffeForm">
+        <nav>
 
-        <main>
+            <div class="logo"><img src="images/logo-nav.png" alt="Cannons Coffee Logo, Beans of Joy" />
+
+                <h1>CANNON'S COFFEE</h1>
+            </div>
+
+            <ul>
+                <li><a href="index.html" target="_blank">HOME</a></li>
+                <li><a href="latte.html" target="_blank">COFFEE</a></li>
+                <li><a href="https://locations.noahs.com/us/ca/oakland/5095-telegraph-ave" target="_blank">ABOUT</a>
+                </li>
+                <li><a href="login.html" target="_blank">LOGIN</a></li>
+                <li><a href="inquiry.html" target="_blank">INQUIRY</a></li>
+                <li><a href="mailto:RecendezZanetta@Gmail.Com" target="_blank">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+    </header>
+    <main>
+        <form id="cannonsCoffeeForm">
+
+
 
 
             <h1>Have Questions?</h1>
             <p>Our customer support team at Cannons Coffee loves to help our customers!!! Fill out the form below and we
-                will gladdy get back to you with in 1 business day</p>
+                will gladly get back to you with in 1 business day</p>
             <div>
-                <lable for="name">Name:</lable><br><br>
+                <label for="name">Name:</label><br><br>
                 <input type="text" id="name" name="name" placeholder="Your Name Here">
             </div>
 
             <div>
-                <lable for="email">Enter your email:</lable>
-                <input type="text" id="email" name="email" placeholder="Your Email Here" />
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Here" />
             </div>
             <div>
-                <lable for="phone">Phone Number:</lable><br><br>
+                <label for="phone">Phone Number:</label><br><br>
                 <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
             </div>
 
             <div>
-                <lable for="comments">Comments Here:</lable>
+                <label for="comments">Comments Here:</label>
                 <textarea id="comments" name="comments" placeholder="Tell us how you feel"></textarea>
             </div>
 
 
             <div>
-                <lable for="style">My favorite drink:</lable>
+                <label for="style">My favorite drink:</label>
                 <select id="style" name="style">
                     <option value="">--Please choose an option--</option>
                     <option value="hotCoffee">Hot Coffee</option>
@@ -73,16 +82,17 @@
             <div>
                 <p>Please choose one:</p>
                 <input type="radio" id="buying" name="interest" value="buyingCoffee">
-                <lable for="buying">Purchasing Coffee</lable>
-                <input tyoe="radio" id="employment" name="interest" value="employment">
-                <lable for="employment">Seeking Employment</lable>
+                <label for="buying">Purchasing Coffee</label>
+                <input type="radio" id="employment" name="interest" value="employment">
+                <label for="employment">Seeking Employment</label>
             </div>
             <div>
                 <button type="submit">Submit</button>
             </div>
-            <script src="js/custom-inquiry.js"></script>
-        </main>
-    </form>
+        </form>
+    </main>
+
+    <script src="js/custom-inquiry.js"></script>
 </body>
 
 </html>
