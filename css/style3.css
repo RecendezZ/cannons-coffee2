@@ -20,6 +20,7 @@ header {
     
     padding: 15px;
     background-color: var(--secondary-catalina);
+      border-bottom: 20px solid var(--primary-sunglow);
 }
 
 nav {
@@ -28,15 +29,17 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+   
     gap: 11px;
     color: var(--secondary-white);
-    border-bottom: 20px solid var(--primary-sunglow);
+  
 }
 
 
 
-
+nav a {
+  color: var(--secondary-white);
+}
 
 nav li {
     text-decoration: none;
@@ -54,6 +57,7 @@ nav ul {
   justify-content: center;
   text-decoration: none;
   
+  
 }
 
 body {
@@ -69,10 +73,21 @@ a:visited {
     color: var(--primary-white);
 }
 
+
+.logo {
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .logo img {
     width: 110px;
     height: auto;
     display: block;
+    
 }
 
 
@@ -85,9 +100,7 @@ a:visited {
   text-decoration: none;
   color: var(--secondary-white);
   border-radius: 10px;
-  margin-top: 4rem;
-  margin-left: 40rem;
-  margin-bottom: 3rem;
+  
   display: inline-block;
   width: max-content;
  }
@@ -96,25 +109,22 @@ a:visited {
 a {
   text-decoration: none;
 }
-
+.card-container {
+    border-bottom: 20px solid var(--primary-sunglow);
+}
 
 
 .latte {
+  
 background-color: var(--secondary-white);
 display: flex;
-flex-wrap: wrap;
-}
-
-p {
-  padding-left: 30rem;
-
+gap: 3rem;
+align-items: center;
 }
 
 
-h1 {
 
-  padding-left: 13rem;
-}
+
 footer {
   color: var(--secondary-white);
   background-color: var(--secondary-catalina);
@@ -124,3 +134,12 @@ footer {
   padding-bottom: 4rem;
   
 } 
+@media (min-width: 1000px)
+{
+
+nav {
+
+ justify-content: space-between;
+flex-wrap: nowrap;
+}
+}
