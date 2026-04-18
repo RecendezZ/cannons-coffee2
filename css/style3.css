@@ -122,18 +122,32 @@ gap: 3rem;
 align-items: center;
 }
 
+.form {
+  background-color: var(--secondary-white);
+  border-radius: 4px;
+  background-color: var(--secondary-white);
+  padding: 20px;
+}
 
+.inquiry {
+  background-color: var(--secondary-light-blue);
+  padding: 4rem;
 
+}
 
 footer {
   color: var(--secondary-white);
   background-color: var(--secondary-catalina);
-  border-top: 40px solid var(--primary-sunglow);
+  border-top: 20px solid var(--primary-sunglow);
   align-items: center;
   text-align: center;
   padding-bottom: 4rem;
   
 } 
+
+
+
+
 @media (min-width: 1000px)
 {
 

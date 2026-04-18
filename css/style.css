@@ -18,6 +18,9 @@ body {
   background-color: var(--secondary-catalina);
 }
 
+ 
+  
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
@@ -265,21 +268,7 @@ footer {
 
 
 @media (min-width: 1000px) {
-
-
-
-
-
-  body {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.125rem;
-  margin: 0;
-  padding: auto;
-  line-height: 1.5;
-  
-
-}
-
+    
 .whole-container {
   max-width: 1200px;
   margin: auto;
