@@ -48,33 +48,33 @@
 
                 <h1> We'd Love to Hear From You</h1>
 
-                <p>To Questions, concerns, or just want to tell our team we are doing an amazing job!?! </p>
+                <p>Questions, concerns, or just want to tell our team we are doing an amazing job!?! </p>
                 <p>Fill out the form below and we will respond in 1-3 business days.</p>
-
-
-                <label for="name">Name:</label><br><br>
-
-                <input type="text" id="name" name="name" placeholder="Your Name Here">
-
-
-                <div>
+                <!--name-->
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name Here">
+                </div>
+                <!--email-->
+                <div class="email">
                     <label for="email">Enter your email:</label>
                     <input type="email" id="email" name="email" placeholder="Your Email Here" />
                 </div>
 
-                <label for="phone">Phone Number:</label><br><br>
-
-                <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
+                <!--comments-->
 
 
-                <div>
-                    <label for="comments">Comments Here:</label>
-                    <textarea id="comments" name="comments" placeholder="Tell us how you feel"></textarea>
+                <!--phone number-->
+                <div class="phone-number">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
                 </div>
 
 
+
+
                 <div>
-                    <label for="style">My favorite drink:</label>
+                    <label for="style">Favorite drink:</label>
                     <select id="style" name="style">
                         <option value="">--Please choose an option--</option>
                         <option value="hotCoffee">Hot Coffee</option>
@@ -88,6 +88,11 @@
                     <label for="buying">Purchasing Coffee</label>
                     <input type="radio" id="employment" name="interest" value="employment">
                     <label for="employment">Seeking Employment</label>
+                </div>
+
+                <div class="comments">
+                    <label for="comments">Comments Here:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
                 </div>
                 <div>
                     <button type="submit">Submit</button>

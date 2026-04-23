@@ -124,6 +124,20 @@ align-items: center;
 
 
 
+.inquiry {
+  background-color: var(--secondary-white);
+  padding: 4rem;
+}
+
+.email ,.phone-number ,.style {
+  margin: 1rem;
+}
+
+.comments {
+display: flex;
+margin: 1rem;
+}
+
 
 footer {
   color: var(--secondary-white);
@@ -134,9 +148,6 @@ footer {
   padding-bottom: 4rem;
   
 } 
-
-
-
 @media (min-width: 1000px)
 {
 

@@ -90,6 +90,10 @@ a:visited {
     
 }
 
+.inquiry {
+    background-color: var(--secondary-white);
+    
+}
 
 
  .button {
@@ -135,6 +139,12 @@ align-items: center;
 
 }
 
+.container-form {
+border: 1em solid var(--primary-sunglow);
+background-color: var(--secondary-white);
+padding: 3rem;
+margin: 4rem;
+}
 footer {
   color: var(--secondary-white);
   background-color: var(--secondary-catalina);
