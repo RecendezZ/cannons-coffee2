@@ -1,16 +1,14 @@
 
-const form = document.querySelector("cannonsCoffeeForm");
-console.log(form)
-const message = document.querySelector("#message");
-console.log(message);
+const form = document.querySelector("#cannonsCoffeeForm");
 
+function onFormSubmit(event) {
+  event.preventDefault();
 
-// form.addEventListener("submit,function (event)") {
-//     event.preventDefault();
-    
-    const name = document.querySelector("#name");
-    const email = document.querySelector("#email");
-    const phone = document.querySelector("#phone");
-    const comments = document.querySelector("#comments");
-    const flavor = document.querySelector("#flavor");
-    
+  const formData = new FormData(form);
+  const dataObject = Object.fromEntries(formData.entries());
+
+  console.log(dataObject);
+  form.reset();
+}
+
+form.addEventListener("submit", onFormSubmit);
